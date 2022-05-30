@@ -112,6 +112,9 @@ var Configuration = map[string]PathConfig{
 	"zipinfo":  Allowed,
 	"arm-linux-androidkernel-as": Allowed,
 	"arm-linux-androidkernel-ld": Allowed,
+	"aarch64-linux-android-ld":           Allowed,
+	"aarch64-linux-android-ld.bfd":       Allowed,
+	"aarch64-linux-android-ld.gold":      Allowed,
 
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
